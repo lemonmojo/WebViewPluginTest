@@ -4,7 +4,7 @@ Sample project to reproduce the following Cocoa WebView bug:
 
 When using `WebView`s hosted within an `NSTableView` [Apple's documentation](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/WebKit/Classes/WebView_Class/index.html#//apple_ref/occ/instm/WebView/setHostWindow:) recommends to use the `setHostWindow:YES` API of the `WebView` class. This works work around the issue that _"Plug-ins and JavaScript depend on a window to function properly even if the web view is not in an actual window"_.
 
-However, when using this API and switching back and forth between the tabs, the Plugin's contents suddenly flip vertically.
+However, when using this API and switching back and forth between the tabs, the Plugin's contents suddenly **flip vertically**.
 
 For me, this is **reproducible** with the following systems/configurations:
 * OS X 10.10.2 with Safari 8.0.3 (10600.3.18)
