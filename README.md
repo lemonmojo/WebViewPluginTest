@@ -17,7 +17,7 @@ I can **NOT reproduce** it with the following systems/configurations:
 Furthermore, it's **only reproducible** if the application is targeting the **64 bit** architecture. 
 For this reason there are two targets included in the sample project, one targeting 32 bit (WebViewPluginTest x86) and one targeting 64 bit (WebViewPluginTest x64).
 
-##Screenshots
+###Screenshots
 
 Before Switching Tab:
 ![Before Switching Tab](https://raw.githubusercontent.com/lemonmojo/WebViewPluginTest/master/Screenshots/WebView_Good.png)
