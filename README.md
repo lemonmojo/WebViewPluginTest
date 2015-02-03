@@ -19,10 +19,10 @@ For this reason there are two targets included in the sample project, one target
 
 ###Steps to reproduce
 - Start the x64 based sample.
-- Switch from the 'No Plugin' tab to the 'Quick Time' tab (or 'Flash' if installed and configured properly)
-- At this stage everything is working as expected
-- No switch back to the 'No Plugin' tab and back to the 'Quick Time' tab again
-- Now the Quick Time logo on the right is inverted vertically
+- Switch from the 'No Plugin' tab to the 'Quick Time' tab (or 'Flash' if installed and configured properly).
+- At this stage everything is working as expected.
+- Now switch back to the 'No Plugin' tab and once again back to the 'Quick Time' tab.
+- Now the Quick Time logo on the right is inverted vertically. (see screenshots below)
 
 ###Screenshots
 
