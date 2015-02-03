@@ -4,7 +4,7 @@ Sample project to reproduce the following Cocoa WebView bug:
 
 When using `WebView`s hosted within an `NSTabView` [Apple's documentation](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/WebKit/Classes/WebView_Class/index.html#//apple_ref/occ/instm/WebView/setHostWindow:) recommends to use the `setHostWindow:YES` API of the `WebView` class. This works around the issue that _"Plug-ins and JavaScript depend on a window to function properly even if the web view is not in an actual window"_.
 
-However, when using this API and switching back and forth between the tabs, the Plugin's contents suddenly **flip vertically**.
+However, when using this API and switching back and forth between the tabs, the Plugin's contents suddenly **flip vertically and horizontally**.
 
 For me, this is **reproducible** with the following systems/configurations:
 * OS X 10.10.2 with Safari 8.0.3 (10600.3.18)
@@ -22,7 +22,7 @@ For this reason there are two targets included in the sample project, one target
 - Switch from the 'No Plugin' tab to the 'Quick Time' tab (or 'Flash' if installed and configured properly).
 - At this stage everything is working as expected.
 - Now switch back to the 'No Plugin' tab and once again back to the 'Quick Time' tab.
-- Now the Quick Time logo on the right is flipped vertically. (see screenshots below)
+- Now the Quick Time logo on the right is flipped vertically and horizontally. (see screenshots below)
 
 ###Screenshots
 
