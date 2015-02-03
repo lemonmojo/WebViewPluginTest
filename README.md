@@ -7,5 +7,5 @@ When using WebViews hosted within an NSTableView Apple's documentation recommend
 However, when using this API and switching back and forth between the tabs, the Plugin's contents suddenly flip vertically.
 
 Screenshots:
-![Before Switching Tab](master/Screenshots/WebView_Good.png?raw=true "Before Switching Tab")
-![After Switching Tab](master/Screenshots/WebView_Bad.png?raw=true "After Switching Tab")
+![Before Switching Tab](https://raw.githubusercontent.com/lemonmojo/WebViewPluginTest/master/Screenshots/WebView_Good.png)
+![After Switching Tab](https://raw.githubusercontent.com/lemonmojo/WebViewPluginTest/master/Screenshots/WebView_Bad.png)
