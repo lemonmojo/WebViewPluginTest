@@ -17,6 +17,13 @@ I can **NOT reproduce** it with the following systems/configurations:
 Furthermore, it's **only reproducible** if the application is targeting the **64 bit** architecture. 
 For this reason there are two targets included in the sample project, one targeting 32 bit (WebViewPluginTest x86) and one targeting 64 bit (WebViewPluginTest x64).
 
+###Steps to reproduce
+- Start the x64 based sample.
+- Switch from the 'No Plugin' tab to the 'Quick Time' tab (or 'Flash' if installed and configured properly)
+- At this stage everything is working as expected
+- No switch back to the 'No Plugin' tab and back to the 'Quick Time' tab again
+- Now the Quick Time logo on the right is inverted vertically
+
 ###Screenshots
 
 Before Switching Tab:
