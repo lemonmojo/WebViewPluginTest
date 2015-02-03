@@ -29,7 +29,6 @@
 		E7F4647A1A810FD400611286 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E7F464931A81104B00611286 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		E7F464A11A811FCF00611286 /* WebViewPluginTest x64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebViewPluginTest x64.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7F464A21A811FCF00611286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +57,6 @@
 				E7F464931A81104B00611286 /* WebKit.framework */,
 				E7F464721A810FD400611286 /* WebViewPluginTest */,
 				E7F464711A810FD400611286 /* Products */,
-				E7F464A21A811FCF00611286 /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -326,7 +324,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = WebViewFlashTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "WebViewPluginTest x64";
 				SDKROOT = macosx10.9;
@@ -339,7 +337,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = WebViewFlashTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "WebViewPluginTest x64";
 				SDKROOT = macosx10.9;
