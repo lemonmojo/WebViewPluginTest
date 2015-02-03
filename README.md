@@ -22,7 +22,7 @@ For this reason there are two targets included in the sample project, one target
 - Switch from the 'No Plugin' tab to the 'Quick Time' tab (or 'Flash' if installed and configured properly).
 - At this stage everything is working as expected.
 - Now switch back to the 'No Plugin' tab and once again back to the 'Quick Time' tab.
-- Now the Quick Time logo on the right is inverted vertically. (see screenshots below)
+- Now the Quick Time logo on the right is flipped/inverted vertically. (see screenshots below)
 
 ###Screenshots
 
