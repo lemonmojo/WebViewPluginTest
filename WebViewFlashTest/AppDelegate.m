@@ -22,6 +22,7 @@
 - (void)connectToUrl:(NSString*)urlString inView:(WebView*)webView
 {
     // Can reproduce on:
+    // - OS X 10.10.3 (14D72i BETA) with Safari 8.0.5 (10600.5.3.1)
     // - OS X 10.10.2 with Safari 8.0.3 (10600.3.18)
     // - OS X 10.9.5  with Safari 7.1.3 (9537.85.12.18)
     // - OS X 10.9.5  with Safari 7.1.2 (9537.85.11.5)
